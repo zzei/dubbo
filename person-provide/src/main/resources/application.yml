@@ -1,0 +1,9 @@
+server:
+  port: 8888
+dubbo:
+  application:
+    name: person-provide
+  registry:
+    address: zookeeper://10.211.55.7:2181
+  protocol:
+    port: 20882

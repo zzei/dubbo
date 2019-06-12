@@ -1,0 +1,9 @@
+server:
+  port: 8088
+dubbo:
+  application:
+    name: person-consumer
+  registry:
+    address: zookeeper://10.211.55.7:2181
+  protocol:
+    port: 20882
